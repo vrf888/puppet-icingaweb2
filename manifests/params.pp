@@ -76,7 +76,7 @@ class icingaweb2::params {
         'php-intl',
         'php-ldap',
         'php-mysql',
-        'php-pecl-imagick',
+        'php-imagick',
         'php-pgsql',
       ]
     }
@@ -100,12 +100,12 @@ class icingaweb2::params {
       $web_root                          = '/usr/share/icingaweb2'
 
       $pkg_deps = [
-        'php5-gd',
-        'php5-imagick',
-        'php5-intl',
-        'php5-ldap',
-        'php5-mysql',
-        'php5-pgsql',
+        'php-gd',
+        'php-imagick',
+        'php-intl',
+        'php-ldap',
+        'php-mysql',
+        'php-pgsql',
       ]
     }
 
